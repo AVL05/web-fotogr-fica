@@ -480,6 +480,12 @@ header:hover .signature::after {
     }
 }
 
+img {
+    pointer-events: none;
+    user-drag: none; 
+    user-select: none;
+  }
+
 @media (max-width: 576px) {
     header {
         padding: 60px 0;
